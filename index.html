@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Dash</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hud">
+    <h2>🌿 TEMPLE DASH</h2>
+    <div>Score: <span id="score">0</span></div>
+    <div>Coins: <span id="coins">0</span> 🪙</div>
+  </header>
+
+  <main id="game">
+    <div class="sun"></div>
+    <div class="temple">🏛️</div>
+    <div class="jungle jungle-left">🌴 🌳 🌴</div>
+    <div class="jungle jungle-right">🌳 🌴 🌳</div>
+
+    <div class="road">
+      <div class="lane-line line-one"></div>
+      <div class="lane-line line-two"></div>
+    </div>
+
+    <div id="objects"></div>
+    <div id="player">🏃</div>
+
+    <div id="message">
+      <h1 id="message-title">TEMPLE DASH</h1>
+      <p id="message-text">
+        Dodge obstacles and collect golden coins!
+      </p>
+      <button id="start-btn">START GAME</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>← → Move &nbsp; | &nbsp; SPACE / ↑ Jump</p>
+    <div class="mobile-controls">
+      <button id="left-btn">←</button>
+      <button id="jump-btn">↑</button>
+      <button id="right-btn">→</button>
+    </div>
+  </footer>
+</body>
+</html>
